@@ -56,7 +56,20 @@ Interpret model behavior using feature importance analysis.
 
 - Apply the model to large-scale astronomical surveys (e.g., Gaia, TESS) for improved generalization  
 - Explore advanced models such as gradient boosting and neural networks for capturing complex feature interactions  
-- Extend the framework to regression tasks for predicting continuous stellar properties  
+- Extend the framework to regression tasks for predicting continuous stellar properties
+
+## How to Run
+
+1. Clone the repository:
+   git clone https://github.com/neerudon33/stellar-classification-ml.git
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Open the notebook:
+   notebook/star_classification.ipynb
+
+4. Run all cells to reproduce results
 
 ## Conclusion
 
