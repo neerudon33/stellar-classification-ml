@@ -34,6 +34,33 @@ Interpret model behavior using feature importance analysis.
 - Tested on 20% unseen data
 ### 3. Evaluation
 - Accuracy score = **1.0**
-- Confusion matrix
+- Confusion matrix = [[ 8 0 0 0 0 0] [ 0 7 0 0 0 0] [ 0 0 6 0 0 0] [ 0 0 0 8 0 0] [ 0 0 0 0 8 0] [ 0 0 0 0 0 11]]
 ### 4. Interpretation
 - **Feature importance analysis to identify dominant physical parameters**
+
+## Results
+- Achieved strong classification accuracy on test data
+- Feature importance indicates:
+- Absolute Magnitude and Stellar Radius as dominant predictors
+- Moderate influence from luminosity
+- Minimal contribution from derived attributes such as star color
+- **The high accuracy suggests that the selected physical parameters provide strong separability of stellar types in this dataset. However, given the limited dataset size and potential correlations among features, further validation on larger and more diverse datasets is necessary to assess generalization performance.**
+
+## Key Insights
+
+- Intrinsic brightness (absolute magnitude) and structural scale (radius) emerge as the dominant factors in stellar classification within the dataset  
+- Derived attributes such as star color contribute minimally, indicating redundancy with underlying physical parameters  
+- The model captures structured relationships consistent with established stellar classification frameworks
+
+## Future Work
+
+- Apply the model to large-scale astronomical surveys (e.g., Gaia, TESS) for improved generalization  
+- Explore advanced models such as gradient boosting and neural networks for capturing complex feature interactions  
+- Extend the framework to regression tasks for predicting continuous stellar properties  
+
+## Conclusion
+
+This project demonstrates the application of machine learning to astrophysical classification problems using structured observational data. The model achieves strong predictive performance while providing interpretable insights into the physical parameters governing stellar types.
+
+The results highlight the effectiveness of data-driven approaches in reproducing known astrophysical relationships and underscore the importance of combining predictive modeling with domain-level interpretation.
+
